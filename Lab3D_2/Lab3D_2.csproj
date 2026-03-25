@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="r1.jpg" CopyToOutputDirectory="PreserveNewest" />
+    <Content Include="r2.jpg" CopyToOutputDirectory="PreserveNewest" />
+    <Content Include="r3.jpg" CopyToOutputDirectory="PreserveNewest" />
+    <Content Include="r4.jpg" CopyToOutputDirectory="PreserveNewest" />
+    <Content Include="r5.jpg" CopyToOutputDirectory="PreserveNewest" />
+    <Content Include="r6.jpg" CopyToOutputDirectory="PreserveNewest" />
+    <Content Include="earth2.bmp" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+
+</Project>
